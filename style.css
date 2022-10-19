@@ -1,0 +1,51 @@
+body
+{
+    margin: 0;
+    background-color: lightpink;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    font-size: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform:capitalize;
+    letter-spacing: 4px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0, 0.3);
+    white-space: nowrap;
+}  
+
+.container
+{
+    text-align: center;
+}
+.btn
+{
+    padding: 50px 70px;
+    background-color: white;
+    min-width: 200px;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8x rgba(0,0,0, 0.3);
+    cursor: pointer;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.btn:hover
+{
+    color: pink;
+}
+.btn:active
+{
+    background-size: 105%;
+}
+
